@@ -3,26 +3,34 @@ title = "OpenShift Examples"
 
 theme = "hugo-theme-learn"
 
+enableGitInfo = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Enable local search
+offlineSearch = true
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "gray"
-  editURL = "https://github.com/rbo/openshift-examples/edit/content/"
+  editURL = "https://github.com/openshift-examples/web/edit/master/content/"
   disableNextPrev = true
 
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[[menu.shortcuts]]
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
-weight = 30
+weight = 1
 
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> rbo/openshift-examples"
+name = "<i class='fab fa-fw fa-github'></i> openshift-examples/web"
 identifier = "github"
-url = "https://github.com/rbo/openshift-examples"
+url = "https://github.com/openshift-examples/web"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]

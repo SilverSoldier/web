@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# grep -q 'title:' content/hugodemo/_index.md
+# grep -m1 '^# ' content/hugodemo/_index.md  | sed  's/^# //'
+
 export SOURCE=./
 
 mv -v ${SOURCE}README.md content/_index.md

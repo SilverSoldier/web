@@ -1,3 +1,8 @@
+---
+title: Red Hat SSO - via Google
+linktitle: Red Hat SSO - via Google
+weight: 21300
+---
 # Red Hat SSO - via Google
 
 ## Official documentation:
@@ -16,8 +21,8 @@
 
 ### Copy Client ID and Client secret
 
-Example Client ID and secret  
-Client ID: `1079862778375-60es8d8ugvg3e54csnesgf94p6r4rc6s.apps.googleusercontent.com`  
+Example Client ID and secret
+Client ID: `1079862778375-60es8d8ugvg3e54csnesgf94p6r4rc6s.apps.googleusercontent.com`
 Client Secret: `rJR1jmiUnk_ZWZFxqbMxhShn`
 
 ### Create client secret

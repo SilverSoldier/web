@@ -1,3 +1,10 @@
+---
+title: General notes
+linktitle: General notes
+weight: 13100
+tags:
+  - GPU
+---
 # General OpenShift & GPU Nodes
 
 # Know-Issues

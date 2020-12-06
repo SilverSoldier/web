@@ -1,3 +1,8 @@
+---
+title: Deployments
+linktitle: Deployments
+weight: 4100
+---
 # Deployments
 
 ## Deployment from private registry

@@ -1,3 +1,8 @@
+---
+title: Token
+linktitle: Token
+weight: 21100
+---
 # Service Account authentication via Token
 
 Official solutions (KCS):

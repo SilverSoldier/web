@@ -1,3 +1,8 @@
+---
+title: Terraform
+linktitle: Terraform
+weight: 99200
+---
 # Terraform
 
 ## Cloud init
@@ -74,7 +79,7 @@ resource "openstack_compute_instance_v2" "cloud-init" {
     boot_index            = 0
     delete_on_termination = true
   }
-  
+
   # Docker storage
   block_device {
     source_type           = "blank"
@@ -120,7 +125,7 @@ rh_subscription:
 
 # set the locale
 locale: en_US.UTF-8
- 
+
 # timezone: set the timezone for this instance
 timezone: UTC
 

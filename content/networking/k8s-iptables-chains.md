@@ -1,3 +1,8 @@
+---
+title: Kubernetes iptables chains
+linktitle: Kubernetes iptables chains
+weight: 16500
+---
 # Kubernetes iptables chains
 
 [Documentation](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/)

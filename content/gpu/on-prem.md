@@ -1,3 +1,10 @@
+---
+title: GPU on-prem
+linktitle: on-prem
+weight: 13300
+tags:
+  - GPU
+---
 # Install & use GPU on-prem
 
 Official solution: [How to install the NVIDIA GPU Operator with OpenShift](https://access.redhat.com/solutions/4908611)
@@ -106,7 +113,7 @@ nvidia-driver-validation                   0/1     Completed   0          32m
 ```
 
 !!! note
-    Pod `nvidia-device-plugin-validation` stuck in Pending, problem was my gpu node had no capacity nvidia.com/gpu. 
+    Pod `nvidia-device-plugin-validation` stuck in Pending, problem was my gpu node had no capacity nvidia.com/gpu.
     A reboot of the node helped.
 
     `oc debug node/...`

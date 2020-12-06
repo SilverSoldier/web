@@ -1,3 +1,8 @@
+---
+title: Log Forwarding demo
+linktitle: Log Forwarding API
+weight: 18100
+---
 # Log Forwarding demo
 
 ## Start fluentd to file logging

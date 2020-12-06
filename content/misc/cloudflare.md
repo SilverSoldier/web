@@ -1,3 +1,8 @@
+---
+title: CloudFlare
+linktitle: CloudFlare
+weight: 99100
+---
 # Cloudflare
 
 ## API
@@ -11,7 +16,7 @@
 curl -X DELETE "https://api.cloudflare.com/client/v4/zones/$CF_Zone/dns_records/$1" \
      -H "X-Auth-Email: $CF_Email" \
      -H "X-Auth-Key: $CF_Key" \
-     -H "Content-Type: application/json" 
+     -H "Content-Type: application/json"
 ```
 ### List
 ```bash
@@ -26,7 +31,7 @@ curl -X GET "https://api.cloudflare.com/client/v4/zones/$CF_Zone/dns_records?typ
      -H "X-Auth-Email: $CF_Email" \
      -H "X-Auth-Key: $CF_Key" \
      -H "Content-Type: application/json" \
-     -s | jq -r '.result[] | [.id,.name,.type,.content] |@tsv'	
+     -s | jq -r '.result[] | [.id,.name,.type,.content] |@tsv'
 ```
 
 ### Add

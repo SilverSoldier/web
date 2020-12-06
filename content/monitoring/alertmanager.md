@@ -1,3 +1,9 @@
+---
+title: Alertmanager
+linktitle: Alertmanager
+weight: 17100
+---
+
 # Alertmanager
 
 ## Setup Slack receiver
@@ -33,7 +39,7 @@ foo.yaml
     - receiver: slack
       match:
         alertname: Watchdog
-      
+
 ```
 
 #### Apply config:
@@ -96,5 +102,5 @@ alertmanager.yaml
     - receiver: telegram-webhook
       match:
         alertname: Watchdog
-      
+
 ```

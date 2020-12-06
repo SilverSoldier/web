@@ -1,3 +1,8 @@
+---
+title: Scale down DC
+linktitle: Scale down DC
+weight: 6400
+---
 # Auto scale down of deployment configs
 
 Quite old, not tested yet and old fassion way. Next time write an operator! Maybe you can use [https://github.com/zalando-incubator/kopf/blob/master/README.md](https://github.com/zalando-incubator/kopf/blob/master/README.md)
@@ -78,7 +83,7 @@ spec:
   schedule: 10 22 * * 5
   successfulJobsHistoryLimit: 10
   failedJobsHistoryLimit: 10
-  jobTemplate:             
+  jobTemplate:
     spec:
       template:
         spec:
@@ -86,6 +91,6 @@ spec:
           serviceAccountName: cluster-admin
           containers:
           - name: auto-scale-down
-            image: auto-scale-down	
+            image: auto-scale-down
           restartPolicy: Never
 ```

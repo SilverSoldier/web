@@ -1,4 +1,10 @@
-## anyuid example 
+---
+title: SCC anyuid example"
+linktitle: SCC anyuid example"
+tags:
+  - SCC
+---
+# SCC anyuid example
 
 ### Create project and service account
 ```bash
@@ -11,7 +17,7 @@ oc create sa anyuid
 #### prior 4.3.8
 
 ```bash
-oc adm policy add-scc-to-user -n anyuid-demo -z anyuid anyuid 
+oc adm policy add-scc-to-user -n anyuid-demo -z anyuid anyuid
 ```
 
 #### past 4.3.8
@@ -27,12 +33,12 @@ metadata:
   namespace: anyuid-demo
 rules:
 - apiGroups:
-  - security.openshift.io 
+  - security.openshift.io
   resourceNames:
   - anyuid
   resources:
-  - securitycontextconstraints 
-  verbs: 
+  - securitycontextconstraints
+  verbs:
   - use
 EOF
 
@@ -52,7 +58,7 @@ roleRef:
 EOF
 ```
 
-### Deploy 
+### Deploy
 
 #### without-anyuid
 ```bash
@@ -73,15 +79,15 @@ spec:
       containers:
       - image: ubi8/ubi-minimal
         name: container
-        command: 
+        command:
           - "/bin/sh"
           - "-c"
-          - | 
-            while true ; do 
-              date; 
+          - |
+            while true ; do
+              date;
               echo -n "id: "
               id;
-              sleep 1; 
+              sleep 1;
             done;
   triggers:
   - type: ConfigChange
@@ -113,15 +119,15 @@ spec:
       containers:
       - image: ubi8/ubi-minimal
         name: container
-        command: 
+        command:
           - "/bin/sh"
           - "-c"
-          - | 
-            while true ; do 
-              date; 
+          - |
+            while true ; do
+              date;
               echo -n "id: "
               id;
-              sleep 1; 
+              sleep 1;
             done;
   triggers:
   - type: ConfigChange

@@ -1,5 +1,7 @@
 ---
 title: JFrog Artifactory Enterprise Operator
+linktitle: JFrog Artifactory
+weight: 8100
 tags:
  - air-gapped
  - restriced-network

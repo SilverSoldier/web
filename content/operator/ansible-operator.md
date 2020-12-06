@@ -1,5 +1,8 @@
-# Operator
-
+---
+title: Ansible Operator
+linktitle: Ansible Operator
+weight: 12200
+---
 ## Ansible Operator example
 
 #### Resources:
@@ -21,7 +24,7 @@ docker push quay.io/openshift-examples/ansible-example-operator:latest
 sed -i "" 's|{{ REPLACE_IMAGE }}|quay.io/openshift-examples/ansible-example-operator:latest|g' deploy/operator.yaml
 sed -i "" 's|{{ pull_policy\|default('\''Always'\'') }}|Always|g' deploy/operator.yaml
 
-oc new-project ansible-example-operator 
+oc new-project ansible-example-operator
 # Setup Service Account
 oc create -f deploy/service_account.yaml
 # Setup RBAC
@@ -66,7 +69,7 @@ oc create -f deploy/crds/ansibleoperator_v1_config_cr.yaml
         {{ hostvars | to_nice_json }}
 
   debug:
-    msg: "{{ msg.split('\n') }}"  
+    msg: "{{ msg.split('\n') }}"
 ```
 
 #### Rebuild and redeploy
@@ -82,6 +85,6 @@ oc delete pods -l name=ansible-operator
 ```bash
 # Setup Service Account
 oc delete -f deploy/crds/ansibleoperator_v1_config_crd.yaml
-oc delete project ansible-example-operator 
+oc delete project ansible-example-operator
 ```
 

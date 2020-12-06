@@ -1,3 +1,8 @@
+---
+title: Basic Authentication
+linktitle: Basic Authentication
+weight: 21400
+---
 # Basic Authentication \(Remote\)
 
 [https://docs.openshift.com/container-platform/3.3/install\_config/configuring\_authentication.html\#BasicAuthPasswordIdentityProvider](https://docs.openshift.com/container-platform/3.3/install_config/configuring_authentication.html#BasicAuthPasswordIdentityProvider)

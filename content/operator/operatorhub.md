@@ -1,3 +1,8 @@
+---
+title: OperatorHub
+linktitle: OperatorHub
+weight: 12300
+---
 # Own Operator in OperatorHub
 
 ## Build helm char

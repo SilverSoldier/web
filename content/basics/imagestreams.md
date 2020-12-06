@@ -1,3 +1,8 @@
+---
+title: ImageStreams
+linktitle: ImageStreams
+weight: 4500
+---
 # ImageStreams
 
 ## Resources

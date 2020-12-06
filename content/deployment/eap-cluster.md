@@ -1,4 +1,7 @@
 ---
+title: EAP Cluster demo
+linktitle: EAP Cluster demo
+weight: 6200
 description: >-
   This example demonstrates session replication on JBoss EAP in OpenShift.
   (Tested with OpenShift 3.4)

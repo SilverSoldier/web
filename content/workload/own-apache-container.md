@@ -1,4 +1,10 @@
-# Build Images
+---
+title: Own apache
+linktitle: Own apache
+weight: 8200
+---
+# Own apache
+## Build Images
 
     oc new-build https://github.com/openshift-examples/own-apache-container.git \
     --name httpd
@@ -7,7 +13,7 @@
     --context-dir=anyuid --name httpd-anyuid
 
 
-# Deploy Images
+## Deploy Images
 
     oc new-app httpd
     oc expose svc/httpd
@@ -20,11 +26,11 @@
     oc create sa anyuid
 
     # Add privileges to service account to run POD's with uid 0
-    oc adm policy add-scc-to-user -z anyuid anyuid 
+    oc adm policy add-scc-to-user -z anyuid anyuid
 
     oc patch dc/httpd-anyuid --patch '{"spec":{"template":{"spec":{"serviceAccount": "anyuid", "serviceAccountName": "anyuid"}}}}'
 
-# Add persistent volume
+## Add persistent volume
 
 ```
 cat <<EOF | oc apply -f -
@@ -50,6 +56,6 @@ EOF
 
     oc set volume dc/httpd-anyuid --add --name=httpd-anyuid-volume-1 -t pvc --claim-name=httpd --overwrite  --mount-path=/var/www/html/
 
-# Rollback 
+## Rollback
 
     oc rollback dc/httpd-anyuid

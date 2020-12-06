@@ -1,3 +1,9 @@
+---
+title: Workload Monitoring
+linktitle: Workload
+weight: 17200
+---
+
 # Workload Monitoring
 
 Enable TechPreview workload monitoring: [Enabling monitoring of your own services

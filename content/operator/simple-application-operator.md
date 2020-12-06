@@ -1,3 +1,9 @@
+---
+title: Simple Application Operator - WiP
+linktitle: Simple Application Operator - WiP
+weight: 12600
+---
+
 # Draft/WIP Simple example ansible operator
 
 ```
@@ -66,10 +72,10 @@ cp -v  deploy/*yaml deploy/crds/*crd.yaml deploy/olm-catalog/*/*/*.clusterservic
 ```
 
 # Build bundle
-An Operator Bundle is built as a scratch (non-runnable) container image that contains operator manifests and specific metadata in designated directories inside the image. 
+An Operator Bundle is built as a scratch (non-runnable) container image that contains operator manifests and specific metadata in designated directories inside the image.
 [Source](https://github.com/operator-framework/operator-registry/blob/master/docs/design/operator-bundle.md#operator-bundle-overview)
 
-## Options 1) use operator sdk (v0.15.2) bundle create 
+## Options 1) use operator sdk (v0.15.2) bundle create
 ```
 operator-sdk bundle create \
     --package simple-application-operator \

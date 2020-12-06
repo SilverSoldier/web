@@ -1,3 +1,9 @@
+---
+title: NFS Client provisioner
+linktitle: NFS Client provisioner
+tags:
+  - storage
+---
 # NFS Storage for dynamic provisioning and image registry
 
 ## Setup NFS-Server

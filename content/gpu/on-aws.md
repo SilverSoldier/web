@@ -1,3 +1,10 @@
+---
+title: GPU on AWS
+linktitle: on AWS
+weight: 13200
+tags:
+  - GPU
+---
 # Install & use GPU on AWS
 
 Tested with OpenShift 4.4.5 at region `eu-central-1`
@@ -28,7 +35,7 @@ OLD_MACHINESET_NAME=$(jq '.metadata.name' -r /tmp/source-machineset.json )
 NEW_MACHINESET_NAME=${OLD_MACHINESET_NAME/worker/worker-gpu}
 
 # Change instanceType and delete some stuff
-jq -r '.spec.template.spec.providerSpec.value.instanceType = "p3.2xlarge" 
+jq -r '.spec.template.spec.providerSpec.value.instanceType = "p3.2xlarge"
   | del(.metadata.selfLink)
   | del(.metadata.uid)
   | del(.metadata.creationTimestamp)
@@ -207,7 +214,7 @@ nvidia-driver-validation                   0/1     Completed   0          32m
 ```
 
 !!! note
-    Pod `nvidia-device-plugin-validation` stuck in Pending, problem was my gpu node had no capacity nvidia.com/gpu. 
+    Pod `nvidia-device-plugin-validation` stuck in Pending, problem was my gpu node had no capacity nvidia.com/gpu.
     A reboot of the node helped.
 
     `oc debug node/...`

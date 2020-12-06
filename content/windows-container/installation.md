@@ -1,4 +1,10 @@
-# Windows Container - DevPreview 🔥
+---
+title: Windows Container - 🔥 DevPreview
+linktitle: DevPreview
+pre: '🔥'
+weight: 15100
+---
+# Windows Container - 🔥 DevPreview
 
 <center>
 ![](windows-container.gif)
@@ -9,7 +15,7 @@ Checkout the Video from [Christian Hernandez](https://twitter.com/christianh814)
 <center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Pa_hiTlcP_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
- 
+
 ## Installation
 
 <!-- internal docs, Azure: https://docs.google.com/document/d/1fDdrTvQlci9ZNYB_Uli6B7KlvVIfs6Ps_V9l-wEKPr8/edit# -->
@@ -33,7 +39,7 @@ aws-create-cluster.sh
 
 ### Run powershell.exe webserver
 
-!!! note 
+!!! note
     the image size is 2GB! It take some time to pull the image
 
 ```bash

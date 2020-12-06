@@ -1,3 +1,12 @@
+---
+title: Air-gapped OperatorHub - pre 4.6
+linktitle: Air-gapped OperatorHub - pre 4.6
+weight: 12100
+tags:
+  - air-gapped
+  - disconnected
+  - restricted-network
+---
 # Air-gapped OperatorHub - pre 4.6
 
 !!! warning

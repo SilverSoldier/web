@@ -1,3 +1,8 @@
+---
+title: StatefulSet
+linktitle: StatefulSet
+weight: 4600
+---
 # StatefulSet
 
 ## nginx example

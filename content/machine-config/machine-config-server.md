@@ -1,4 +1,9 @@
-# Machine Config
+---
+title: Machine Config Server
+linktitle: Machine Config Server
+weight: 22100
+---
+# Machine Config Server
 
 #### Create MachineConfig
 

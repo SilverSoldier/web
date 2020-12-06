@@ -1,3 +1,8 @@
+---
+title: Install Operator as a User - WiP
+linktitle: Install Operator as a User - WiP
+weight: 12400
+---
 # WIP: Install Operator as a User
 
 Official documentation: [https://docs.openshift.com/container-platform/4.3/operators/olm-creating-policy.html](https://docs.openshift.com/container-platform/4.3/operators/olm-creating-policy.html)
@@ -32,7 +37,7 @@ kind: OAuth
 metadata:
   name: cluster
 spec:
-  identityProviders: 
+  identityProviders:
     - htpasswd:
         fileData:
           name: htpasswd
@@ -48,7 +53,7 @@ EOF
 
 ## Add application operator to your namespace
 
-Create OLM Service Account 
+Create OLM Service Account
 
 ```text
 oc create -f - <<EOF

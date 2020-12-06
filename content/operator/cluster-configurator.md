@@ -1,3 +1,8 @@
+---
+title: Cluster Configurator
+linktitle: Cluster Configurator
+weight: 12500
+---
 # How to apply your initial cluster configuration with OpenShift 4 ?
 
 It is quite easy to deploy your OpenShift 4 cluster, if you don't know how easy it is check out the blog post: [OpenShift 4: Install Experience](https://blog.openshift.com/openshift-4-install-experience/)
@@ -55,9 +60,9 @@ spec:
 openshift-install create cluster --dir=conf
 ```
 
-The caveat here is, you can not adjust objects there created by cluster version operator. Let's take a closer look, using the openshift ingress controller. The initial deploying of the openshift ingress (ex router) component is quite easy: 
+The caveat here is, you can not adjust objects there created by cluster version operator. Let's take a closer look, using the openshift ingress controller. The initial deploying of the openshift ingress (ex router) component is quite easy:
 
-The Cluster Version Operator (CVO) ensure the (1) openshift-ingress-operator is running and (2) create the default custom resource (CR) for the default router. 
+The Cluster Version Operator (CVO) ensure the (1) openshift-ingress-operator is running and (2) create the default custom resource (CR) for the default router.
 
 Ingress part of the CVO is configurated via:
 
@@ -124,11 +129,11 @@ operator-sdk new cluster-configurator  --type ansible \
 ```
 
 ### Do all adjustments
-    
+
 Checkout final version: https://github.com/openshift-examples/cluster-configurator
 
 ### Build & Push container
-  
+
 ```
 operator-sdk build quay.io/rbo/cluster-configurator:latest
 docker push quay.io/rbo/cluster-configurator:latest

@@ -1,8 +1,11 @@
 ---
+title: Liveness probe
+linktitle: Liveness probe - WiP
+weight: 4200
 description: Work-in-progress
 ---
 
-# Liveness probe
+# Liveness probe - Work-in-progress
 
 ```yaml
 apiVersion: v1
@@ -28,7 +31,7 @@ spec:
       containers:
       - name: container-runner
         image:  quay.io/openshift-examples/gitlab-runner:latest
-        command: 
+        command:
         - /bin/sh
         - -c
         - |
@@ -47,7 +50,7 @@ spec:
             - -x
             - -c
             - |
-              false       
+              false
         livenessProbe:
           exec:
             command:

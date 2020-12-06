@@ -1,3 +1,8 @@
+---
+title: Metrics
+linktitle: Metrics
+weight: 17300
+---
 # Metrics
 
 ## List metrics of a node or pod,...

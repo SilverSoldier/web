@@ -1,3 +1,8 @@
+---
+title: NSX-T
+linktitle: NSX-T
+weight: 16300
+---
 # NSX-T
 
 #### Resources

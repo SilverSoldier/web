@@ -1,3 +1,8 @@
+---
+title: Gitlab Runner
+linktitle: Gitlab Runner
+weight: 8300
+---
 # Gitlab Runner
 
 Gitlab runner image based on ubi: [https://quay.io/repository/openshift-examples/gitlab-runner](https://quay.io/repository/openshift-examples/gitlab-runner)
@@ -14,7 +19,7 @@ oc adm policy add-role-to-user edit -z gitlab-runner
 
 # Create empty secret gitlab-runner-config
 oc create secret generic gitlab-runner-config \
-    --from-literal=config.toml="" 
+    --from-literal=config.toml=""
 
 # Create secret for registration gitlab-runner-register
 oc create secret generic gitlab-runner-register \
@@ -46,12 +51,12 @@ spec:
       containers:
       - name: run
         image:  quay.io/openshift-examples/gitlab-runner:latest
-        command:  
+        command:
           - /usr/bin/bash
           - -x
           - -c
           - |
-            # Register 
+            # Register
             cp -v /gitlab-runner-config/config.toml $HOME/.gitlab-runner/config.toml
 
             gitlab-runner unregister --all-runners
@@ -113,6 +118,6 @@ Checkout the [Dockerfile](https://github.com/rbo/openshift-examples/blob/master/
 ## Notes
 
 * `gitlab-runner verify` don't work with env variable `CI_SERVER_URL`, know issue: [https://gitlab.com/gitlab-org/gitlab-runner/issues/3904](https://gitlab.com/gitlab-org/gitlab-runner/issues/3904)
-* `gitlab-runner run` won't die in case of errors 
+* `gitlab-runner run` won't die in case of errors
 * Overall it looks like gitlab-runner is not build to run inside a container, but it work.
 

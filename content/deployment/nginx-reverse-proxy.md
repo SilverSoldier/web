@@ -1,6 +1,11 @@
+---
+title: Nginx reverse proxy
+linktitle: Nginx reverse proxy
+weight: 6100
+---
 # Nginx reverse proxy
 
-Based on 
+Based on
 
 [Run Nginx as reverse proxy on Openshift](http://keyangxiang.com/2018/06/01/Openshift/how-to-run-nginx-as-reverse-proxy/)
 

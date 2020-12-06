@@ -1,10 +1,13 @@
 ---
+title: Storage
+linktitle: Storage
+weight: 4300
 description: Somes PV & PVC examples
 ---
 
 # Storage
 
-## HostPath examples (PV,PVC,Pod) /var/log 
+## HostPath examples (PV,PVC,Pod) /var/log
 
 ```bash
 # oc adm policy add-cluster-role-to-user sudoer admin
@@ -130,7 +133,7 @@ spec:
   resources:
     requests:
       storage: 2Gi
-``` 
+```
 
 ## Example POD to PVC
 

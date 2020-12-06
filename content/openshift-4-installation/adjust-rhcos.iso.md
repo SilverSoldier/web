@@ -1,3 +1,10 @@
+---
+title: How to adjust the an RHEL CoreOS ISO
+linktitle: Adjust RHCOS.ISO
+weight: 2900
+tags:
+  - rhcos
+---
 # How to adjust the an RHEL CoreOS ISO
 
  * Download ISO from [rhcos-4.5.6-x86_64-installer.x86_64.iso](https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.5/4.5.6/rhcos-4.5.6-x86_64-installer.x86_64.iso)

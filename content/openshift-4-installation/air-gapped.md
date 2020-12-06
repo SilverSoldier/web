@@ -1,3 +1,12 @@
+---
+title: Air-gapped installation
+linktitle: Air-gapped
+weight: 2000
+tags:
+  - air-gapped
+  - disconnected
+  - restricted-network
+---
 # Air-gapped installation
 
 ## Download oc client

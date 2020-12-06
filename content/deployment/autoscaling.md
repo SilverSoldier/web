@@ -1,3 +1,8 @@
+---
+title: POD Autoscaling
+linktitle: POD Autoscaling
+weight: 6300
+---
 # POD Autoscaling
 
 ## Setup cpu based autoscaling

@@ -1,3 +1,8 @@
+---
+title: MachineSets Debugging
+linktitle: Debugging
+weight: 23100
+---
 # MachineSets Debugging
 
 ## Check config-daemon pod log

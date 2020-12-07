@@ -2,6 +2,7 @@
 title: Air-gapped OperatorHub - pre 4.6
 linktitle: Air-gapped OperatorHub - pre 4.6
 weight: 12100
+description: TBD
 tags:
   - air-gapped
   - disconnected

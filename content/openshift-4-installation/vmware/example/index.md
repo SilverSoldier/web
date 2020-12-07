@@ -1,6 +1,7 @@
 ---
 title: VMware Example installation
 linktitle: Example installation
+description: TBD
 tags:
   - VMware
   - UPI

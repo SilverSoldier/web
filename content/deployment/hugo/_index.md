@@ -1,6 +1,7 @@
 ---
 title: How to use build and deploy hugo
-menuTitle: Hugo
+linktitle: Hugo
+description: TBD
 ---
 
 
@@ -9,5 +10,5 @@ menuTitle: Hugo
 ## Resources
 
 - https://www.itix.fr/blog/writing-workshop-instructions-with-hugo-deploy-openshift/
-- https://github.com/thedigitalgarage/s2i-hugo - Based on golang:alpine :-( 
+- https://github.com/thedigitalgarage/s2i-hugo - Based on golang:alpine :-(
 - Build your own: https://github.com/openshift/source-to-image/tree/master/examples/nginx-centos7

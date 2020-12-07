@@ -2,6 +2,7 @@
 title: How to adjust the an RHEL CoreOS ISO
 linktitle: Adjust RHCOS.ISO
 weight: 2900
+description: TBD
 tags:
   - rhcos
 ---

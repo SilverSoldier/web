@@ -2,6 +2,7 @@
 title: Basic Authentication
 linktitle: Basic Authentication
 weight: 21400
+description: TBD
 ---
 # Basic Authentication \(Remote\)
 

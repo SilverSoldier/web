@@ -2,6 +2,7 @@
 title: Cluster entitlement
 linktitle: Cluster entitlement
 weight: 5120
+description: TBD
 tags:
   - entitlement
   - GPU

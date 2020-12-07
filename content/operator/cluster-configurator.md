@@ -2,6 +2,7 @@
 title: Cluster Configurator
 linktitle: Cluster Configurator
 weight: 12500
+description: TBD
 ---
 # How to apply your initial cluster configuration with OpenShift 4 ?
 

@@ -2,6 +2,7 @@
 title: Scale down DC
 linktitle: Scale down DC
 weight: 6400
+description: TBD
 ---
 # Auto scale down of deployment configs
 

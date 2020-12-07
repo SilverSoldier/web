@@ -1,6 +1,7 @@
 ---
 title: Router sharding example
 linktitle: Router sharding
+description: TBD
 alias:
 - "/basics/router-sharding/"
 ---

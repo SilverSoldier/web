@@ -2,6 +2,7 @@
 title: VMware Basic (UPI)
 linktitle: Basic (UPI)
 weight: 2000
+description: TBD
 tags:
   - VMware
   - UPI

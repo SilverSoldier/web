@@ -2,6 +2,7 @@
 title: NTP
 linktitle: NTP
 weight: 27100
+description: TBD
 ---
 # NTP Server
 

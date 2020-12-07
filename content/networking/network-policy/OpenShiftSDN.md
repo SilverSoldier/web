@@ -2,6 +2,7 @@
 title: Network Policy with OpenShiftSDN
 linktitle: OpenShiftSDN
 weight: 16200
+description: TBD
 ---
 # Network Policy with OpenShiftSDN
 

@@ -1,6 +1,7 @@
 ---
 title: OpenShift Examples
 hero: "This is my (Robert Bohne) personal OpenShift Examples and Notice collection. ( Including a lot of typos \U0001F609)"
+description: "..."
 ---
 
 # OpenShift Examples
@@ -33,6 +34,10 @@ oc cluster up --image=registry.access.redhat.com/openshift3/ose \
 |[How can a user update OpenShift 4 console route](https://access.redhat.com/solutions/4539491)||
 |[Red Hat Operators Supported in Disconnected Mode](https://access.redhat.com/articles/4740011)||
 |[Support Policies for Red Hat OpenShift Container Platform Clusters - Deployments Spanning Multiple Sites(Data Centers/Regions)](https://access.redhat.com/articles/3220991)||
+
+## Table of content
+
+{{% children style="li" depth="6" description="true"  /%}}
 
 ## Usefull commands
 

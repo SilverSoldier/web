@@ -2,6 +2,7 @@
 title: Local-storage
 linktitle: Local-storage
 weight: 14200
+description: TBD
 ---
 # Configuring local storage for virtual machines
 

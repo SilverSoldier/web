@@ -2,6 +2,7 @@
 title: vSphere IPI & Proxy
 linktitle: IPI & Proxy
 weight: 2100
+description: TBD
 tags:
   - proxy
   - VMware

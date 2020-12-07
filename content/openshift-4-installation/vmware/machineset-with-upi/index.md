@@ -1,6 +1,7 @@
 ---
 title: Use MachineSet with VMware UPI setup
 linktitle: MachineSet & UPI
+description: TBD
 tags:
   - VMware
   - UPI

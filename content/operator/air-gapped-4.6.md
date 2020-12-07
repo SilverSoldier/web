@@ -1,6 +1,7 @@
 ---
 title: Air-gapped Operator LifeCycle Manager / OperatorHub => 4.6
 weight: 12010
+description: TBD
 linktitle: Air-gapped OLM >= 4.6
 tags:
   - air-gapped

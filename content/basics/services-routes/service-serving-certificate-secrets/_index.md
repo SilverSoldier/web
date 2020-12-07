@@ -2,6 +2,7 @@
 title: Service Serving Certificate Secrets Example
 linktitle: Service Certificate
 weight: 4390
+description: TBD
 tags:
   - certificates
 ---

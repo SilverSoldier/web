@@ -2,6 +2,7 @@
 title: Entitled builds on OpenShift 4
 linktitle: Entitled
 weight: 5200
+description: TBD
 tags:
   - entitlement
 ---

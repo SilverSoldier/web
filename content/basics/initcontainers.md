@@ -2,6 +2,7 @@
 title: Init containers
 linktitle: Init containers
 weight: 4700
+description: TBD
 ---
 # Init containers
 

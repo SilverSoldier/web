@@ -2,6 +2,7 @@
 title: Custom Resource Definition (CRD)
 linktitle: Custom Resource Definition (CRD)
 weight: 11000
+description: TBD
 ---
 # Custom Resource Definition (CRD)
 

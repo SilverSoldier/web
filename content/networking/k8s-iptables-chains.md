@@ -2,6 +2,7 @@
 title: Kubernetes iptables chains
 linktitle: Kubernetes iptables chains
 weight: 16500
+description: TBD
 ---
 # Kubernetes iptables chains
 

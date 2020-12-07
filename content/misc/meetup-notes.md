@@ -2,6 +2,7 @@
 title: ConSol Meetup Notes
 linktitle: ConSol Meetup Notes
 weight: 99300
+description: TBD
 ---
 # My OpenShift 4 Meetup @ConSol Notes
 

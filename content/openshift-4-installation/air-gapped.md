@@ -2,6 +2,7 @@
 title: Air-gapped installation
 linktitle: Air-gapped
 weight: 2000
+description: TBD
 tags:
   - air-gapped
   - disconnected

@@ -123,3 +123,20 @@ a:hover {
 #homelinks a:hover {
     color: var(--MENU-HOME-LINK-HOVERED-color);
 }
+
+pre {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 2px;
+    line-height: 1.15;
+}
+
+pre .copy-to-clipboard {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background-color: #C1C4C6;
+    color: #ccc;
+    border-radius: 2px;
+}

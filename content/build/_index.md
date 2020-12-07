@@ -1,10 +1,10 @@
 ---
-title: Builds
-linktitle: Builds
-weight: 5000
-description: TBD
+title: Build
+linktitle: Build
+weight: 4000
+description: All about building container images / applications
 ---
-# Builds
+# Build
 
 {{% children depth="3" /%}}
 

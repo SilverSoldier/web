@@ -1,8 +1,8 @@
 ---
 title: Networking
 linktitle: Networking
-weight: 16000
-description: TBD
+weight: 6000
+description: All about networking
 ---
 
 # Networking

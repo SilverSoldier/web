@@ -9,6 +9,7 @@ description: TBD
 ## Simple Docker build
 
 ```yaml
+asdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsf
 oc create is simple-docker-build
 
 oc apply -f - <<EOF
@@ -69,6 +70,8 @@ EOF
 ## Simple context dir
 
 ```yaml {linenos=table,hl_lines=[14]}
+asdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsfasdfadsf
+
 oc create is simple-context-dir
 
 oc apply -f - <<EOF

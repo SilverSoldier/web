@@ -1,6 +1,6 @@
 ---
 title: OpenShift Virtualization (CNV/KubeVirt)
-linktitle: Virtualization
+linktitle: "OpenShift Virtualization"
 weight: 14000
 description: TBD
 ---
